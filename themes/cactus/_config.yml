@@ -107,7 +107,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/hurricane-stock.jpg
+  url: /images/hurricane-stock.png
   gravatar: false
   grayout: true
 
