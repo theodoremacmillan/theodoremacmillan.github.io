@@ -7,8 +7,9 @@ date: 2026-01-06
 
 ### 2025
 
-**Paper Title Here**
-Your Name, Coauthor Name, Another Coauthor
+**Towards mechanistic understanding in a data-driven weather model: internal activations reveal interpretable physical features**
+
+Theodore MacMillan and Nicholas T. Ouellette
 *Conference/Journal Name, 2025*
 [PDF](#) | [Code](#) | [BibTeX](#)
 
