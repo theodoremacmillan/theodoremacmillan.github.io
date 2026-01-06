@@ -14,10 +14,10 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  about: /about/
-  articles: /archives/
-  projects: http://github.com/probberechts
+  Home: /
+  About: /about/
+  Papers: /papers/
+  Posts: /archives/
 
 
 # Links to your social media accounts.
