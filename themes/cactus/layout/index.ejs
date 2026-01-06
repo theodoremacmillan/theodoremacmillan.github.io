@@ -32,6 +32,23 @@
   <% } %>
 </section>
 
+<section id="papers">
+  <span class="h1"><a href="<%- url_for('/papers/') %>">Recent Papers</a></span>
+  <ul class="post-list">
+    <li class="post-item">
+      <span class="meta">2025</span>
+      <span><strong>Towards mechanistic understanding in a data-driven weather model</strong><br/>
+      <small>T MacMillan, NT Ouellette &middot; <em>arXiv preprint</em></small></span>
+    </li>
+    <li class="post-item">
+      <span class="meta">2025</span>
+      <span><strong>Expected correlation in time-series analysis</strong><br/>
+      <small>T MacMillan, JP Hilditch, NT Ouellette &middot; <em>Physical Review E</em></small></span>
+    </li>
+  </ul>
+</section>
+
+<% if (site.posts.length) { %>
 <section id="writing">
   <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
@@ -59,6 +76,7 @@
     <%- partial('_partial/pagination') %>
   <% } %>
 </section>
+<% } %>
 
 <% if (site.data.projects) { %>
 <section id="projects">

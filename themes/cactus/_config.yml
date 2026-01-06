@@ -17,7 +17,6 @@ nav:
   Home: /
   About: /about/
   Papers: /papers/
-  Posts: /archives/
 
 
 # Links to your social media accounts.
@@ -29,24 +28,16 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/probberechts/cactus-dark
+    link: http://github.com/theodoremacmillan
   -
     icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
+    link: https://x.com/thzro
   -
     icon: mail
-    link: mailto:name@email.com
+    link: tmacmill@stanford.edu
   -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    icon: linkedin
+    link: https://www.linkedin.com/in/theodore-macmillan-4455b976/
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud

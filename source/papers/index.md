@@ -7,18 +7,50 @@ date: 2026-01-06
 
 ### 2025
 
+**Expected correlation in time-series analysis**
+T MacMillan, JP Hilditch, NT Ouellette
+*Physical Review E 111 (2), 024121*
+
+**A model intercomparison study of aerosol-cloud-turbulence interactions in a cloud chamber: 1. Model results**
+S Chen, SK Krueger, P Dziekan, K Enokido, T MacMillan, D Richter, et al.
+*Journal of Advances in Modeling Earth Systems 17 (7)*
+
 **Towards mechanistic understanding in a data-driven weather model: internal activations reveal interpretable physical features**
+T MacMillan, NT Ouellette
+*arXiv preprint arXiv:2512.24440*
 
-Theodore MacMillan and Nicholas T. Ouellette
-*Conference/Journal Name, 2025*
-[PDF](#) | [Code](#) | [BibTeX](#)
+### 2024
 
-### Working Papers
+**Spectral energy transfer on complex networks: a filtering approach**
+T MacMillan, NT Ouellette
+*Scientific Reports 14 (1), 20691*
 
-**Working Paper Title**
-Your Name, Coauthor Name
-*Under review*
+### 2022
+
+**Direct numerical simulation of turbulence and microphysics in the Pi Chamber**
+T MacMillan, RA Shaw, WH Cantrell, DH Richter
+*Physical Review Fluids 7 (2), 020501*
+
+**Lagrangian scale decomposition via the graph Fourier transform**
+T MacMillan, NT Ouellette
+*Physical Review Fluids 7 (12), 124401*
+
+### 2021
+
+**A Lagrangian Cloud Model for the Study of Marine Fog**
+DH Richter, T MacMillan, C Wainwright
+*Boundary-Layer Meteorology, 1-20*
+
+**The most robust representations of flow trajectories are Lagrangian coherent structures**
+T MacMillan, DH Richter
+*Journal of Fluid Mechanics 927, A26*
+
+### 2020
+
+**Detection of evolving Lagrangian coherent structures: A multiple object tracking approach**
+T MacMillan, NT Ouellette, DH Richter
+*Physical Review Fluids 5 (12), 124401*
 
 ---
 
-See also: [Google Scholar](#) | [Semantic Scholar](#)
+[Google Scholar](https://scholar.google.com/citations?user=IK3CpbgAAAAJ&hl=en)
