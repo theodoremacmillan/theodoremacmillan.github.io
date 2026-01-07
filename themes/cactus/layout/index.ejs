@@ -32,21 +32,20 @@
   <% } %>
 </section>
 
+<% if (site.data.recent_papers) { %>
 <section id="papers">
   <span class="h1"><a href="<%- url_for('/papers/') %>">Recent Papers</a></span>
   <ul class="post-list">
+    <% for (var paper of site.data.recent_papers) { %>
     <li class="post-item">
-      <span class="meta">2025</span>
-      <span><strong>Towards mechanistic understanding in a data-driven weather model</strong><br/>
-      <small>T MacMillan, NT Ouellette &middot; <em>arXiv preprint</em></small></span>
+      <span class="meta"><%= paper.year %></span>
+      <span><strong><%= paper.title %></strong><br/>
+      <small><%= paper.authors %> &middot; <em><%= paper.venue %></em></small></span>
     </li>
-    <li class="post-item">
-      <span class="meta">2025</span>
-      <span><strong>Expected correlation in time-series analysis</strong><br/>
-      <small>T MacMillan, JP Hilditch, NT Ouellette &middot; <em>Physical Review E</em></small></span>
-    </li>
+    <% } %>
   </ul>
 </section>
+<% } %>
 
 <% if (site.posts.length) { %>
 <section id="writing">
