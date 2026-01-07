@@ -7,17 +7,17 @@ date: 2026-01-06
 
 ### 2025
 
+**Towards mechanistic understanding in a data-driven weather model: internal activations reveal interpretable physical features**
+T MacMillan, NT Ouellette
+*arxiv [[PDF]](https://arxiv.org/abs/2512.24440)*
+
 **Expected correlation in time-series analysis**
 T MacMillan, JP Hilditch, NT Ouellette
-*Physical Review E 111 (2), 024121*
+*Physical Review E 111 (2), 024121* [[PDF]](/papers/expected_correlation_2025.pdf)
 
 **A model intercomparison study of aerosol-cloud-turbulence interactions in a cloud chamber: 1. Model results**
 S Chen, SK Krueger, P Dziekan, K Enokido, T MacMillan, D Richter, et al.
 *Journal of Advances in Modeling Earth Systems 17 (7)*
-
-**Towards mechanistic understanding in a data-driven weather model: internal activations reveal interpretable physical features**
-T MacMillan, NT Ouellette
-*arXiv preprint arXiv:2512.24440*
 
 ### 2024
 
@@ -27,13 +27,13 @@ T MacMillan, NT Ouellette
 
 ### 2022
 
-**Direct numerical simulation of turbulence and microphysics in the Pi Chamber**
-T MacMillan, RA Shaw, WH Cantrell, DH Richter
-*Physical Review Fluids 7 (2), 020501*
-
 **Lagrangian scale decomposition via the graph Fourier transform**
 T MacMillan, NT Ouellette
 *Physical Review Fluids 7 (12), 124401*
+
+**Direct numerical simulation of turbulence and microphysics in the Pi Chamber**
+T MacMillan, RA Shaw, WH Cantrell, DH Richter
+*Physical Review Fluids 7 (2), 020501*
 
 ### 2021
 

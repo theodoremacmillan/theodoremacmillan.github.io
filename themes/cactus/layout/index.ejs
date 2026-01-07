@@ -40,7 +40,7 @@
     <li class="post-item">
       <span class="meta"><%= paper.year %></span>
       <span><strong><%= paper.title %></strong><br/>
-      <small><%= paper.authors %> &middot; <em><%= paper.venue %></em></small></span>
+      <small><%= paper.authors %> &middot; <em><%= paper.venue %></em><% if (paper.pdf) { %> &middot; <a href="<%= paper.pdf %>">[PDF]</a><% } %></small></span>
     </li>
     <% } %>
   </ul>
