@@ -3,9 +3,16 @@ title: About
 date: 2026-01-06
 ---
 
-# About Me
+# Research goals
 
-I am a PhD candidate at Stanford University working with Nick Ouellette in the [Environmental Complexity Lab](https://web.stanford.edu/~nto/index.shtml). My research interests include interpretability in AI physics models, general nonlinear dynamics, turbulence, and some general statistical methods.
+Right now I'm really excited about applying mechanistic interpretability tools to AI physics models. Data-driven weather models are the best example of successfull AI at scale in a physics context, so working on those currently. Also the atmosphere is cool. Previously, I've done work in turbulence, cloud modeling, coherent structures, nonlinear dynamics, and some general stats stuff. 
+
+
+# About me
+
+[CV](expected_correlation_2025.pdf)
+
+<!-- I am a PhD candidate at Stanford University working with Nick Ouellette in the [Environmental Complexity Lab](https://web.stanford.edu/~nto/index.shtml). My research interests include interpretability in AI physics models, general nonlinear dynamics, turbulence, and some general statistical methods. -->
 
 <!-- My research interests include mechanistic intepretability for physics models
 

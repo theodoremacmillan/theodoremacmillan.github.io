@@ -128,8 +128,6 @@ blockquote
   transition: transform 0.3s ease
 
 @media screen and (max-width: 480px)
+  // Just hide the toggle on mobile - let system preference handle it
   #theme-toggle-item
-    position: fixed
-    top: 20px
-    right: 1rem
-    display: inline-block !important
+    display: none !important
