@@ -3,7 +3,7 @@ title: About
 date: 2026-01-06
 ---
 
-## About Me
+# About Me
 
 I am a PhD candidate at Stanford University working with Nick Ouellette in the [Environmental Complexity Lab](https://web.stanford.edu/~nto/index.shtml). My research interests include interpretability in AI physics models, general nonlinear dynamics, turbulence, and some general statistical methods.
 

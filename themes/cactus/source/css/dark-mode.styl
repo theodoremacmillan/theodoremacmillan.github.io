@@ -1,0 +1,135 @@
+// Dark mode support with system preference detection and manual toggle
+// Uses CSS custom properties for runtime theme switching
+
+:root
+  --color-background: #FFFFFF
+  --color-background-code: #fafafa
+  --color-text: #383838
+  --color-border: #666
+  --color-scrollbar: #AAA
+  --color-meta: #666
+  --color-link: rgba(212, 128, 170, 1)
+  --color-accent-1: #2bbc8a
+  --color-accent-2: #383838
+  --color-accent-3: #8c8c8c
+  --color-quote: #2bbc8a
+  --color-footer-mobile-1: #fafafa
+  --color-footer-mobile-2: #e6e6e6
+
+// Auto dark mode based on system preference (only if no explicit preference set)
+@media (prefers-color-scheme: dark)
+  :root:not([data-theme="light"])
+    --color-background: #1d1f21
+    --color-background-code: #232527
+    --color-text: #c9cacc
+    --color-border: #908d8d
+    --color-scrollbar: #999
+    --color-meta: #908d8d
+    --color-link: rgba(212, 128, 170, 1)
+    --color-accent-1: #2bbc8a
+    --color-accent-2: #eeeeee
+    --color-accent-3: #cccccc
+    --color-quote: #ccffb6
+    --color-footer-mobile-1: #222426
+    --color-footer-mobile-2: #343638
+
+// Manual dark mode override
+[data-theme="dark"]
+  --color-background: #1d1f21
+  --color-background-code: #232527
+  --color-text: #c9cacc
+  --color-border: #908d8d
+  --color-scrollbar: #999
+  --color-meta: #908d8d
+  --color-link: rgba(212, 128, 170, 1)
+  --color-accent-1: #2bbc8a
+  --color-accent-2: #eeeeee
+  --color-accent-3: #cccccc
+  --color-quote: #ccffb6
+  --color-footer-mobile-1: #222426
+  --color-footer-mobile-2: #343638
+
+// Override styles to use CSS custom properties
+body
+  background-color: var(--color-background)
+  color: var(--color-text)
+
+// Headings - keep green accent color
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.content h1, .content h2, .content h3,
+.content h4, .content h5, .content h6
+  color: var(--color-accent-1) !important
+
+#header h1, #header .h1
+  color: var(--color-text) !important
+
+// Scrollbar colors
+*
+  scrollbar-color: var(--color-scrollbar) transparent
+
+*::-webkit-scrollbar-thumb
+  background-color: var(--color-scrollbar)
+
+// Links
+.content a
+  color: var(--color-text)
+
+.content a.icon:hover
+  color: var(--color-link)
+
+// Code blocks
+.highlight
+  background: var(--color-background-code)
+
+pre, code
+  border-color: var(--color-border)
+
+// Meta text
+.meta
+  color: var(--color-meta)
+
+// Blockquotes
+blockquote
+  border-left-color: var(--color-quote)
+
+// Header and navigation
+#header #nav ul li a
+  color: var(--color-text)
+
+// Footer
+#footer
+  color: var(--color-meta)
+
+// Post list
+.post-list .post-item .meta
+  color: var(--color-meta)
+
+// Theme toggle button styling - position far right
+#header
+  position: relative
+
+#theme-toggle-item
+  display: inline-block !important
+  border-right: none !important
+  position: absolute
+  right: 0
+  top: 0
+
+#theme-toggle-item a
+  color: var(--color-accent-1)
+  margin-right: 0
+
+#theme-toggle
+  cursor: pointer
+
+#theme-toggle i
+  font-size: 1.1rem
+  transition: transform 0.3s ease
+
+@media screen and (max-width: 480px)
+  #theme-toggle-item
+    position: fixed
+    top: 20px
+    right: 1rem
+    display: inline-block !important

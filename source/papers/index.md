@@ -3,9 +3,9 @@ title: Papers
 date: 2026-01-06
 ---
 
-## Publications
+<!-- ## Publications -->
 
-### 2025
+# 2025
 
 **Towards mechanistic understanding in a data-driven weather model: internal activations reveal interpretable physical features**
 T MacMillan, NT Ouellette
@@ -19,13 +19,13 @@ T MacMillan, JP Hilditch, NT Ouellette
 S Chen, SK Krueger, P Dziekan, K Enokido, T MacMillan, D Richter, et al.
 *Journal of Advances in Modeling Earth Systems 17 (7)*
 
-### 2024
+# 2024
 
 **Spectral energy transfer on complex networks: a filtering approach**
 T MacMillan, NT Ouellette
 *Scientific Reports 14 (1), 20691*
 
-### 2022
+# 2022
 
 **Lagrangian scale decomposition via the graph Fourier transform**
 T MacMillan, NT Ouellette
@@ -35,7 +35,7 @@ T MacMillan, NT Ouellette
 T MacMillan, RA Shaw, WH Cantrell, DH Richter
 *Physical Review Fluids 7 (2), 020501*
 
-### 2021
+# 2021
 
 **A Lagrangian Cloud Model for the Study of Marine Fog**
 DH Richter, T MacMillan, C Wainwright
@@ -45,7 +45,7 @@ DH Richter, T MacMillan, C Wainwright
 T MacMillan, DH Richter
 *Journal of Fluid Mechanics 927, A26*
 
-### 2020
+# 2020
 
 **Detection of evolving Lagrangian coherent structures: A multiple object tracking approach**
 T MacMillan, NT Ouellette, DH Richter

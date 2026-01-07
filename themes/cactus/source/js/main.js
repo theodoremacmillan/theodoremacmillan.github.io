@@ -100,12 +100,70 @@ $(document).ready(function() {
         $("#toc-footer").hide();
         $("#share-footer").hide();
 
-        // show a "navigation" icon when close to the top of the page, 
+        // show a "navigation" icon when close to the top of the page,
         // otherwise show a "scroll to the top" icon
         if (topDistance < 50) {
           $("#actions-footer > #top").hide();
         } else if (topDistance > 100) {
           $("#actions-footer > #top").show();
+        }
+      });
+    }
+  }
+
+  /**
+   * Dark mode toggle functionality
+   */
+  var themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    // Get current theme from localStorage or system preference
+    function getCurrentTheme() {
+      var stored = localStorage.getItem('theme');
+      if (stored) return stored;
+      // Check system preference
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark';
+      }
+      return 'light';
+    }
+
+    // Update toggle icon based on theme
+    function updateToggleIcon(theme) {
+      var icon = themeToggle.querySelector('i');
+      if (theme === 'dark') {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    }
+
+    // Initialize icon on page load
+    updateToggleIcon(getCurrentTheme());
+
+    // Handle toggle click
+    themeToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      var currentTheme = document.documentElement.getAttribute('data-theme');
+
+      // If no explicit theme set, detect current state
+      if (!currentTheme) {
+        currentTheme = getCurrentTheme();
+      }
+
+      var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateToggleIcon(newTheme);
+    });
+
+    // Listen for system theme changes
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        // Only update if user hasn't set a manual preference
+        if (!localStorage.getItem('theme')) {
+          updateToggleIcon(e.matches ? 'dark' : 'light');
         }
       });
     }

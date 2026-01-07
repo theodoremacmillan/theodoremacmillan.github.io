@@ -26,7 +26,12 @@
       </li>
       <% for (var i in theme.nav) { %><!--
      --><li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
-   --><% } %>
+   --><% } %><!--
+     --><li class="icon" id="theme-toggle-item">
+        <a href="#" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </a>
+      </li>
     </ul>
   </div>
 </header>

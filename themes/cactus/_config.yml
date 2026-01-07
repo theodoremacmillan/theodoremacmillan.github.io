@@ -38,6 +38,10 @@ social_links:
   -
     icon: linkedin
     link: https://www.linkedin.com/in/theodore-macmillan-4455b976/
+  -
+    icon: graduation-cap
+    label: Google Scholar
+    link: https://scholar.google.com/citations?user=IK3CpbgAAAAJ&hl=en
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
