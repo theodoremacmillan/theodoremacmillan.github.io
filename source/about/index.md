@@ -5,7 +5,7 @@ date: 2026-01-06
 
 # Research goals
 
-Right now I'm really excited about applying mechanistic interpretability tools to AI physics models. Data-driven weather models are the best example of successfull AI at scale in a physics context, so working on those currently. Also the atmosphere is cool. Previously, I've done work in turbulence, cloud modeling, coherent structures, nonlinear dynamics, and some general stats stuff. 
+I'm really excited about applying mechanistic interpretability tools to AI physics models. Data-driven weather models are the best example of successfull AI at scale in a physics context, so working on those currently. Also the atmosphere is cool. Previously, I've done work in turbulence, cloud modeling, coherent structures, nonlinear dynamics, and some general stats stuff. 
 
 
 # About me
