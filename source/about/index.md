@@ -10,7 +10,7 @@ I'm really excited about applying mechanistic interpretability tools to AI physi
 
 # About me
 
-Check out my [CV](ex_cv.pdf).
+Check out my [CV](ex_resume.pdf).
 
 <!-- I am a PhD candidate at Stanford University working with Nick Ouellette in the [Environmental Complexity Lab](https://web.stanford.edu/~nto/index.shtml). My research interests include interpretability in AI physics models, general nonlinear dynamics, turbulence, and some general statistical methods. -->
 
